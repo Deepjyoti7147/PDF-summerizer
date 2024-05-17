@@ -6,14 +6,18 @@ You've got a blank canvas to work on from a git perspective as well. There's a s
 
 Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
 
+
+First install requirements 
+
+```
+python -r requirements.txt
+```
+Then run the script.py
+```
+python script.py
+```
 To run this application:
 
 ```
 flask --debug run
-```
-
-Also run this command before anything
-
-```
-python -r requirements.txt
 ```
