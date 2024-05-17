@@ -34,7 +34,7 @@ def tokenize_text(text, token_size=500):
 
 def get_responses_from_gpt(tokens, prompt):
     responses = []
-    openai.api_key = 'sk-proj-CzvB8rPkVAnARtlq9tczT3BlbkFJXPELP9805O7YfDQ1SQjI'
+    openai.api_key = 'YOUR API KEY'
     for token in tokens:
         response = openai.Completion.create(
             engine="davinci",
