@@ -11,3 +11,9 @@ To run this application:
 ```
 flask --debug run
 ```
+
+Also run this command before anything
+
+```
+python -r requirnments.txt
+```
