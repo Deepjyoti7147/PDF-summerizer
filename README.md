@@ -19,5 +19,5 @@ python script.py
 To run this application:
 
 ```
-flask --debug run
+python -m flask run
 ```
