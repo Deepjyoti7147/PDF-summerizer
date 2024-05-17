@@ -15,5 +15,5 @@ flask --debug run
 Also run this command before anything
 
 ```
-python -r requirnments.txt
+python -r requirements.txt
 ```
